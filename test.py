@@ -17,4 +17,3 @@ elif D == 0
     print('X = ' x)
 else:
     print('There is no solutions')
-gtygyggyg
