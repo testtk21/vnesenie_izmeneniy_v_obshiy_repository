@@ -1,6 +1,6 @@
 import math
 
-print('A * x^2 + B * x + C = 0\nInsert coefficients for the equation:')
+print('A * x^2 + B * x + C = 0\nВведите коэффициенты квадратного уравнения:')
 a = float(input('A = '))
 b = float(input('B = '))
 c = float(input('C = '))
