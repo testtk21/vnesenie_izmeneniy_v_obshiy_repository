@@ -5,4 +5,14 @@ a = float(input('A = '))
 b = float(input('B = '))
 c = float(input('C = '))
 
-#Вставить свой код здесь
+D=b*b - 4*a*c
+if D > 0:
+    x1=(-b+math.sqrt(D))/2*a
+    print('x1 =',x1)
+    x2=(-b-math.sqrt(D))/2*a
+    print('x2 =',x2)
+elif D==0:
+    x=-b/2*a
+    print('x =',x)
+else:
+    print('Вещественных корней нет')
